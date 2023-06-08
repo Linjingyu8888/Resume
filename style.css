@@ -1,0 +1,163 @@
+html {
+	font-size: 2.5em;
+}
+
+@font-face {
+  font-family: "H5PFontAwesome4";
+  src: url(fontawesome-webfont.woff);
+}
+
+body{
+	margin-left:1em;
+	margin-right:1em;
+}
+
+h1{
+	text-align:center;
+}
+
+#languages{
+	display:flex;
+}
+
+#flag_item1{
+	flex-grow:5;
+	text-align:right;
+}
+
+#flag_item2{
+	flex-grow:1;
+	text-align:center;
+}
+
+#flag{
+    width: 2em;
+    height: 1.1em;
+}
+
+#profile_picture {
+	width: 6em;
+    flex-grow: 1;
+    padding-right: 3em;
+	display:block;
+	height: 10em;
+}
+
+h2 {
+	border-style: solid;
+	border-left:0;
+	border-right:0;
+	border-bottom:0;
+	border-width:2px;
+}
+
+#contact {
+	display: flex;
+	flex-direction:row;
+}
+
+#contact_information {
+	flex-grow: 1;
+}
+
+#location{
+	font-style:italic;
+	padding-left: 1em;
+}
+#date{
+	padding-left: 1em;
+}
+#position{
+	padding-left: 1em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	padding-left: 1em;
+}
+
+#professional_item::before{
+    font-family: "H5PFontAwesome4";
+    font-weight: 400;
+    content: " ";
+}
+
+#location::before{
+    font-family: "H5PFontAwesome4";
+    font-weight: 400;
+    content: " ";
+}
+
+#date::before{
+    font-family: "H5PFontAwesome4";
+    font-weight: 400;
+    content: " ";
+}
+
+#position::before{
+    font-family: "H5PFontAwesome4";
+    font-weight: 400;
+    content: " ";
+}
+
+#phone::before{
+    font-family: "H5PFontAwesome4";
+    font-weight: 400;
+    content: " ";
+}
+
+#email::before{
+    font-family: "H5PFontAwesome4";
+    font-weight: 400;
+    content: " ";
+}
+
+#linkedin::before{
+    font-family: "H5PFontAwesome4";
+    font-weight: 400;
+    content: " ";
+}
+
+#github::before{
+    font-family: "H5PFontAwesome4";
+    font-weight: 400;
+    content: " ";
+}
+
+#instgram::before{
+    font-family: "H5PFontAwesome4";
+    font-weight: 400;
+    content: " ";
+}
+
+#language::before{
+    font-family: "H5PFontAwesome4";
+    font-weight: 400;
+    content: " ";
+}
+
+@media only screen and (min-width: 1000px) {
+  /* For desktop only: */
+  body {
+	  font-size:15px;
+	  width: 40em;
+	  margin-left: auto;
+	  margin-right:auto;
+  }
+  
+  #profile_picture {
+  	width: 3em;
+    flex-grow: 1;
+    padding-right: 18em;
+	display:block;
+	height: 10em;
+  }
+}
+
+footer{
+	text-align:center;
+}
+
